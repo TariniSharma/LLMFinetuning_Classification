@@ -23,6 +23,6 @@ Using a finetuning approach, instead of using bert just as an embedding model, I
 
 ## Approach-5
 ---
-Enhanced on approach-4 by updating input format to tokenizer to specifically instead Prompt and Response headers. Input to encoder is in the format {Prompt:<promp> \n\n Response: <response>}
+Enhanced on approach-4 by updating input format to tokenizer to specifically instead Prompt and Response headers. Input to encoder is in the format {Prompt:\<promp\> \n\n Response: \<response\>}
 
 
