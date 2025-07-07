@@ -23,6 +23,15 @@ Using a finetuning approach, instead of using bert just as an embedding model, I
 
 ## Approach-5
 ---
-Enhanced on approach-4 by updating input format to tokenizer to specifically instead Prompt and Response headers. Input to encoder is in the format {Prompt:\<promp\> \n\n Response: \<response\>}
+Enhanced on approach-4 by updating input format to tokenizer to specifically instead Prompt and Response headers. Input to encoder is in the format {Prompt:\<prompt\> \n\n Response: \<response\>}
 
+# Comparison
+
+| Approach | Training loss | Validation loss |
+| --- | --- | --- |
+| Approach-1 | 1.147 | 1.137 |
+| Approach-2 | 1.078 | 1.059 |
+| Approach-3 | 1.066 | 1.064 |
+| Approach-4 | 1.113 | 1.099 |
+| Approach-5 | 1.097 | 1.097 |
 
